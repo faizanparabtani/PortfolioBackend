@@ -4,5 +4,5 @@ import datetime
 
 def index(request):
 	now = datetime.datetime.now()
-    html = '<html lang="en"><body>It is now.</body></html>'
-    return HttpResponse(html)
+	html = '<html lang="en"><body>It is now.</body></html>'
+	return HttpResponse(html)
